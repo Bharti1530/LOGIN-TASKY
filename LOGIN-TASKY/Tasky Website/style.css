@@ -1,0 +1,163 @@
+a:link {
+    text-decoration: none;
+}
+
+#header {
+    background: #101b37;
+    color: white;
+}
+
+#menu {
+    list-style: none;
+
+}
+
+#logo {
+    padding-top: 15px;
+}
+
+#getit {
+    display: block;
+    background: #cf3610;
+    border-radius: 8px;
+}
+
+#menu li {
+    display: inline-block;
+    padding-top: 15px;
+
+}
+
+#menu li a {
+    color: white;
+    padding: 10px;
+}
+
+#menu2 {
+    list-style: none;
+
+}
+
+#menu2 li {
+    display: inline-block;
+    padding-top: 15px;
+}
+
+#menu2 li a {
+
+    color: black;
+    font-weight: bold;
+}
+
+#getit2 {
+
+    display: block;
+    background: #3173ef;
+    border-radius: 6px;
+}
+
+#getit2 a {
+    color: white;
+}
+
+#main {
+    background: rgb(244, 245, 243);
+}
+
+#menu3 {
+    list-style: none;
+
+}
+
+#menu3 li {
+    display: inline-block;
+    padding: 15px 8px;
+}
+
+#menu3 li a {
+
+    color: black;
+    font-weight: bold;
+}
+
+.container p-3 {
+    background: white;
+}
+
+#left {
+    background: white;
+    height: 550px;
+}
+
+#right {
+    background: white;
+    height: 550px;
+
+
+}
+
+.nav-item a {
+    color: black;
+    font-weight: bold;
+
+}
+
+.modal-title {
+    text-align: center;
+}
+
+.start-main li {
+    display: inline-block;
+    margin-left: 0px;
+}
+
+.start-main li a {
+    color: black;
+}
+
+.completed {
+    display: block;
+    background: #c0bcf4;
+    border-radius: 5px;
+
+}
+
+.inprogress {
+    display: block;
+    background: #edc9bc;
+    border-radius: 5px;
+
+}
+
+.activee {
+    display: block;
+    background: #edc9bc;
+    border-radius: 5px;
+
+}
+
+.title {
+    color: black;
+}
+
+.profile-icon {
+    width: 40px;
+
+    height: 40px;
+
+    border-radius: 50%;
+
+    position: relative;
+
+    margin-left: -20px;
+
+    z-index: 1;
+
+}
+
+.profile-icon:nth-child(2) {
+    margin-left: -15px;
+
+    z-index: 2;
+
+}
