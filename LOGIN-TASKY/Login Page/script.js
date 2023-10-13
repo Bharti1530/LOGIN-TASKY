@@ -23,7 +23,7 @@ $(document).ready(function () {
                     localStorage.setItem('loggedIn', 'true');
                     localStorage.setItem('token', response.data.token);
 
-                    window.location.href = '/Tasky Website/index.html'
+                    window.location.href = '../Tasky Website/index.html';
                 } else {
                     $('#result').html('<div class="alert alert-danger">Login failed.</div>');
                 }
@@ -41,6 +41,6 @@ localStorage.removeItem('email');
 // Check if the user is already logged in and redirect to the dashboard
 $(document).ready(function () {
     if (localStorage.getItem('loggedIn') === 'true') {
-        window.location.href = '/Tasky Website/index.html';
+        window.location.href = '../Tasky Website/index.html';
     }
 });
